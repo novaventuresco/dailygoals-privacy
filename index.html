@@ -238,12 +238,26 @@
             <li>Protect the personal safety of users or the public</li>
         </ul>
         
-        <h2>6. Data Retention</h2>
+        <h2>6. Data Retention and Deletion</h2>
         <p>
-            We retain your personal information for as long as your account is active or as needed to provide you with services. If you delete your account, we will delete or anonymize your personal information in accordance with our data retention policies, except where we are required to retain it for legal purposes.
+            We retain your personal information for as long as your account is active or as needed to provide you with services. 
         </p>
+        <h3>6.1 Account Data</h3>
         <p>
-            Goals data and account information are retained until you delete your account or request deletion of specific data.
+            Your account information (email address, user ID) and all goals data are stored in our cloud database (Supabase) and are retained until you delete your account. When you delete your account:
+        </p>
+        <ul>
+            <li>All your goals data is permanently deleted from our database</li>
+            <li>Your account information is removed from our systems</li>
+            <li>This deletion is permanent and cannot be undone</li>
+        </ul>
+        <h3>6.2 Local Data</h3>
+        <p>
+            Data stored locally on your device (authentication tokens, app settings) is automatically deleted when you uninstall the app. You can also clear this data manually through your device settings.
+        </p>
+        <h3>6.3 Backup and Recovery</h3>
+        <p>
+            We do not maintain separate backups of your personal data. Once deleted, your data cannot be recovered. We may retain certain information if required by law or for legitimate business purposes (such as fraud prevention), but this will be limited to what is necessary and will be deleted when no longer required.
         </p>
         
         <h2>7. Your Rights and Choices</h2>
@@ -309,28 +323,53 @@
         
         <h2>11. Third-Party Services</h2>
         <p>
-            Our app uses the following third-party services:
+            Our app uses the following third-party services and SDKs:
         </p>
         
-        <h3>11.1 Supabase</h3>
+        <h3>11.1 Expo</h3>
+        <p>
+            Daily Goals is built using Expo, a React Native framework. Expo may collect anonymous crash reports and performance data to improve the platform. This data is not linked to you personally and does not include your personal information or goals data. For more information, see <a href="https://expo.dev/privacy" target="_blank" rel="noopener noreferrer">Expo's Privacy Policy</a>.
+        </p>
+        
+        <h3>11.2 Supabase</h3>
         <p>
             We use Supabase for authentication, database storage, and backend services. Supabase's privacy practices are governed by their own privacy policy. For more information, please visit: <a href="https://supabase.com/privacy" target="_blank" rel="noopener noreferrer">https://supabase.com/privacy</a>
         </p>
         
-        <h3>11.2 Apple App Store</h3>
+        <h3>11.3 Apple App Store</h3>
         <p>
-            If you download the app through the Apple App Store, your use of the app is also subject to Apple's Terms of Service and Privacy Policy.
+            If you download the app through the Apple App Store, your use of the app is also subject to Apple's Terms of Service and Privacy Policy. Subscription payments (if applicable) are processed by Apple. We do not have access to your payment information. See <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener noreferrer">Apple's Privacy Policy</a> for information on how Apple handles payment data.
         </p>
         
         <h2>12. Tracking and Analytics</h2>
         <p>
-            Daily Goals does <strong>not</strong> use tracking technologies, analytics services, or advertising networks that track your activity across other apps or websites. We do not use cookies or similar tracking technologies.
+            Daily Goals does <strong>not</strong> use any analytics services, tracking technologies, or advertising networks. We do not collect usage statistics, user behavior data, or any analytics information about how you use the app.
+        </p>
+        <p>
+            We do not use cookies, tracking pixels, or similar tracking technologies. We do not track your activity across other apps or websites.
         </p>
         <p>
             The app does not participate in Apple's App Tracking Transparency framework because we do not track users across apps or websites.
         </p>
+        <div class="highlight">
+            <p><strong>Note:</strong> While Expo (our development framework) may collect anonymous crash reports and performance data to improve their platform, this data is not linked to you personally and does not include any of your personal information, goals data, or app usage patterns. This is standard for the Expo platform and is not used by Daily Goals for any purpose.</p>
+        </div>
         
-        <h2>13. Contact Information</h2>
+        <h2>13. Purchases and Subscriptions</h2>
+        <p>
+            Daily Goals may offer in-app subscriptions and purchases managed through the Apple App Store. If you make a purchase:
+        </p>
+        <ul>
+            <li><strong>Payment Processing:</strong> All payments are processed by Apple through the App Store. We do not have access to your payment information, credit card details, or billing address.</li>
+            <li><strong>Subscription Management:</strong> Subscriptions automatically renew unless canceled at least 24 hours before the end of the current period. You can manage or cancel subscriptions at any time in your App Store account settings.</li>
+            <li><strong>Refunds:</strong> Refund requests are handled by Apple in accordance with their refund policy. Please contact Apple Support for refund inquiries.</li>
+            <li><strong>Data Collection:</strong> We do not collect any additional information as a result of your purchase. Your subscription status is managed by Apple and is not linked to your personal goals data.</li>
+        </ul>
+        <p>
+            For more information about Apple's payment processing and privacy practices, see <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener noreferrer">Apple's Privacy Policy</a>.
+        </p>
+        
+        <h2>14. Contact Information</h2>
         <div class="contact-info">
             <p>
                 If you have any questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact us:
@@ -338,15 +377,16 @@
             <p>
                 <strong>Developer:</strong> Nova Ventures Co<br>
                 <strong>App Name:</strong> Daily Goals<br>
-                <strong>Bundle ID:</strong> com.novaventuresco.dailygoals
+                <strong>Bundle ID:</strong> com.novaventuresco.dailygoals<br>
+                <strong>Business Type:</strong> Sole Proprietorship
             </p>
             <p>
                 <strong>For Privacy Inquiries:</strong><br>
-                Please contact us through the app's support features or through your preferred method of communication.
+                Email: <a href="mailto:support@novaventuresco.com">support@novaventuresco.com</a>
             </p>
         </div>
         
-        <h2>14. California Privacy Rights</h2>
+        <h2>15. California Privacy Rights</h2>
         <p>
             If you are a California resident, you have additional rights under the California Consumer Privacy Act (CCPA):
         </p>
@@ -360,7 +400,7 @@
             To exercise these rights, please contact us using the information provided in the Contact Information section above.
         </p>
         
-        <h2>15. European Privacy Rights (GDPR)</h2>
+        <h2>16. European Privacy Rights (GDPR)</h2>
         <p>
             If you are located in the European Economic Area (EEA), you have additional rights under the General Data Protection Regulation (GDPR):
         </p>
